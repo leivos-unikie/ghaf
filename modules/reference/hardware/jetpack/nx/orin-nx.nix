@@ -19,6 +19,8 @@
       outputDir = "/var/lib/ghaf-hwinfo";
     };
 
+    image.sdcard.uki.enable = true;
+
     hardware = {
       nvidia.orin = {
         enable = true;
