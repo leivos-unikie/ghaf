@@ -36,13 +36,14 @@
 
     # VM control interface for Ghaf
     ctrl-panel = {
-      url = "github:tiiuae/ghaf-ctrl-panel";
+      url = "github:jannepirskanen/ghaf-ctrl-panel?ref=sysinfo_update";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
         crane.follows = "givc/crane";
       };
     };
+
 
     # Development environment management
     devshell = {
